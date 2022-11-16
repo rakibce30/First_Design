@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.themered {
+   color:  #ef3724 ;
+}
+.themeblue {
+    color:  #2960f7;
+ }
+ .themegreen {
+    color:  #8cc63f;
+ }
+ .themepurple {
+    color:  #6f42c1;
+ }
+ .fontlight {
+    font-weight: 300;
+ }
+ .fontregular {
+    font-weight: 400;
+ }
+ .fontsemibold {
+    font-weight: 600;
+ }
+ .fontbold {
+    font-weight: 800;
+ }
+.fontsmall {
+    font-size: 14px;
+}
+
+
+/* Home page css */
+.homepage {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 25px;
+    z-index: 1;
+}
+.homepage::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(62, 57, 57, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    z-index: -9;
+}
+/* ---------------------- */
+
+/* -------------Nav Css---------- */
+.navbar {
+    background: rgba(104, 102, 102, 0.5);
+}
+.langbtn {
+    font-size: 18px !important;
+    margin-left: 200px;
+    color: white !important;
+    background-color: #ef3724 !important;
+}
+
+/* ---------------------------------- */
+
+/* ------------Banner Title Css------------- */
+.bannertitile {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90%;
+}
+.bannertitile p{
+    margin: 10px;
+}
+.bannertext {
+    font-size: 38px;
+    font-weight: 300;
+}
+
+.bannertitile .bannerbtn {
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    color: #ef3724;
+    font-weight: 800;
+    text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
+    border: 1px solid rgba(239, 56, 36, 0.35);
+    background-color: rgba(239, 56, 36, 0.35);
+}
+.bannericon {
+    position: absolute;
+    bottom: 20px;
+}
+
+/* --------------------------- */
+
+
+/* About Image CSS */
+.aboutimg {
+    position: relative;
+    height: 350px;
+    width: 280px;
+}
+
+.aboutimg img{
+    width: 100%;
+}
+.aboutimg::before {
+    content: " ";
+    border: 4px solid #ef3724;
+    position: absolute;
+    left: 25px;
+    top: -15px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.prograsswrap {
+    width: 360px;
+}
+
+.prograss .prograssbar {
+    border: 2px solid #ef3724;
+    width: 100%;
+    border-radius: 15px;
+}
+.prograssfill{
+    font-size: 10px;
+    font-weight: 300;
+    background-color: #ef3724;
+    height: 100%;
+    margin: 1px;
+    border-radius: 12px;
+}
+.prograsswrap p {
+    margin: 0;
+}
+
+
+/* Education */
+.educationwrap {
+    width: 100%;
+}
+.educationwrap ul{
+    position: relative;
+    list-style-type: none;
+
+}
+.educationwrap ul::before{
+    content: " ";
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    background-color: #f4f5f8;
+}
+.educationwrap ul li{
+    margin-top: 20px;
+    padding-left: 15px;
+    position: relative;
+}
+.educationwrap ul li::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: -20px;
+    width: 18px;
+    height: 18px;
+    background-color: #747474;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+  .educationwrap ul li:first-child::before {
+    background-color: #EF3724;
+    box-shadow: 0 0 0 2px #EF3724;
+  }
+
+.educationyear {
+    background-color: #ef3724;
+    color: #fff;
+    padding: 6px 60px 6px 20px;
+    border-radius: 12px 0 18px 12px;
+    font-size: 12px;
+}
+.educationdetails {
+    background-color: #f4f5f8;
+    padding: 20px;
+}
+.educationtitle {
+    font-size: 14px;
+    font-weight: 600;
+}
+
