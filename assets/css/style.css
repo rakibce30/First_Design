@@ -264,7 +264,7 @@ footer {
     height: 100%;
 }
 
-.footabout span, .footfollow span {
+.footabout span, .footfollow .foottitle {
     color: #9FA2AB;
     font-size: 13px;
     padding-bottom: 10px;
@@ -278,9 +278,10 @@ footer {
 .footfollow ul li a {
     text-decoration: none;
     color: #fff;
+    padding-left: 10px;
 }
 .footfollow ul li a:hover {
-    text-decoration: underline;
+    color: #9FA2AB;
 }
 .subcribeinp {
     border: none;
